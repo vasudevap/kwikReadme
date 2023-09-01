@@ -16,7 +16,11 @@ const questionsForPrompt = [
 ];
 
 const licenseChoices = [
-
+        "GPL", 
+        "MIT", 
+        "Educational", 
+        "Creative Commons", 
+        "Unlicense"
 ]
 
 // TODO: Create a function to write README file
@@ -64,13 +68,7 @@ function init() {
             type: "list",
             name: "license",
             message: questionsForPrompt[5],
-            choices: [
-                "GPL", 
-                "MIT", 
-                "Educational", 
-                "Creative Commons", 
-                "Unlicense"
-            ]
+            choices: licenseChoices
         },
         {
             type: "input",
@@ -86,12 +84,14 @@ function init() {
     ])
     .then((answers) => {
 
-        writeReadme(answers.projectTitle);
-        writeReadme(answers.projectDesc);
-        writeReadme(answers.installInstructions);
-        writeReadme(answers.guidelines);
-        writeReadme(answers.testInstructions);
-        writeReadme(answers.license);
+
+
+        // writeReadme(answers.projectTitle);
+        // writeReadme(answers.projectDesc);
+        // writeReadme(answers.installInstructions);
+        // writeReadme(answers.guidelines);
+        // writeReadme(answers.testInstructions);
+        // writeReadme(answers.license);
 
     })
     .catch((error) => {
