@@ -46,17 +46,17 @@ function init() {
             message: questionsForPrompt[1],
         },
         {
-            type: "input",
+            type: "editor",
             name: "installInstructions",
             message: questionsForPrompt[2],
         },
         {
-            type: "input",
+            type: "editor",
             name: "guidelines",
             message: questionsForPrompt[3],
         },
         {
-            type: "input",
+            type: "editor",
             name: "testInstructions",
             message: questionsForPrompt[4],
         },
