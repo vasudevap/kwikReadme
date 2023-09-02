@@ -176,7 +176,7 @@ function generateMarkdown(data) {
   [${data.license}]`;
   let licenseLink = renderLicenseLink(data.license);
   let licenseText = "\n"+renderLicenseSection(data.license);
-  let afterLicenseText = `
+  let afterLicenseText = `\n
  
   # QUESTIONS
   Please reach me at gitHub (${data.gitHub}) or at my email at ${data.email}
