@@ -50,15 +50,17 @@ On the browser, you can:
   
 
   # CONTRIBUTING
-  To join me in my quest to automate the mundane, send your carrier pigeons to my gitHub at 'vasudevap'
+    To join me in my quest to automate the mundane, send your carrier pigeons to my gitHub at 'vasudevap'
+
 
   
   # TESTS
-  To test, run the application and answer the prompts.  For a successful run, the file, Readme.md should be present in the same folder as the script.
+    To test, run the application and answer the prompts.  For a successful run, the file, Readme.md should be present in the same folder as the script.
+
 
 
   # LICENSE
-  [GNU GPL v3]The (https://www.gnu.org/licenses/gpl-3.0)
+  [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)
  General Public License is a free, copyleft license for software and other kinds of works.
 
       The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
@@ -76,7 +78,9 @@ On the browser, you can:
       Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users' freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.
       
       Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.
+
  
   # QUESTIONS
   Please reach me at gitHub (vasudevap) or at my email at prashant.vasudeva@gmail.com
   ---
+
