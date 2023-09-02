@@ -32,25 +32,25 @@ switch (license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "GNU GPL v3":
-      return "https://www.gnu.org/licenses/gpl-3.0";
+      return "(https://www.gnu.org/licenses/gpl-3.0)";
   
     case "GNU GPL v2": 
-    return "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
+    return "(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
   
     case "The Hippocratic License 3.0": 
-    return "https://firstdonoharm.dev";
+    return "(https://firstdonoharm.dev)";
   
     case "The MIT License": 
-    return "https://opensource.org/licenses/MIT";
+    return "(https://opensource.org/licenses/MIT)";
   
     case "Mozilla Public License 2.0": 
-    return "https://opensource.org/licenses/MPL-2.0";
+    return "(https://opensource.org/licenses/MPL-2.0)";
   
     case "Public Domain Dedication and License (PDDL)": 
-    return "https://opendatacommons.org/licenses/pddl/";
+    return "(https://opendatacommons.org/licenses/pddl/)";
   
     case "The Artistic License 2.0":
-      return "https://opensource.org/licenses/Artistic-2.0";
+      return "(https://opensource.org/licenses/Artistic-2.0)";
 
     default: return "";
   
@@ -183,7 +183,7 @@ function generateMarkdown(data) {
   ---
 `;
 //concatenate all sections of the file and return it
-return beforeLicenseBadge+licenseBadge+afterLicenseBadge+"The ("+licenseLink+")"+licenseText+afterLicenseText;
+return beforeLicenseBadge+licenseBadge+afterLicenseBadge+licenseLink+licenseText+afterLicenseText;
 }
 
 module.exports = generateMarkdown;
