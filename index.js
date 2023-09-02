@@ -17,11 +17,13 @@ const questionsForPrompt = [
 ];
 
 const licenseChoices = [
-        "GPL", 
-        "MIT", 
-        "Educational", 
-        "Creative Commons", 
-        "Unlicense"
+        "GNU GPL v3", 
+        "GNU GPL v2", 
+        "The Hippocratic License 3.0", 
+        "The MIT License", 
+        "Mozilla Public License 2.0",
+        "Public Domain Dedication and License (PDDL)",
+        "The Artistic License 2.0",
 ]
 
 // Function to write README file
