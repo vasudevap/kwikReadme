@@ -41,27 +41,27 @@ function init() {
     .prompt([
         {
             type: "input",
-            name: "projectTitle",
+            name: "title",
             message: questionsForPrompt[0],
         },
         {
             type: "editor",
-            name: "projectDesc",
+            name: "description",
             message: questionsForPrompt[1],
         },
         {
             type: "editor",
-            name: "installInstructions",
+            name: "installation",
             message: questionsForPrompt[2],
         },
         {
             type: "editor",
-            name: "guidelines",
+            name: "usage",
             message: questionsForPrompt[3],
         },
         {
             type: "editor",
-            name: "testInstructions",
+            name: "tests",
             message: questionsForPrompt[4],
         },
         {
@@ -72,27 +72,20 @@ function init() {
         },
         {
             type: "input",
-            name: "gitHubUsername",
+            name: "gitHub",
             message: questionsForPrompt[6],
         },
         {
             type: "input",
-            name: "emailAddr",
+            name: "email",
             message: questionsForPrompt[7],
         },
 
     ])
     .then((answers) => {
 
-
-
-        // writeReadme(answers.projectTitle);
-        // writeReadme(answers.projectDesc);
-        // writeReadme(answers.installInstructions);
-        // writeReadme(answers.guidelines);
-        // writeReadme(answers.testInstructions);
-        // writeReadme(answers.license);
-
+        writeReadme(generateMarkdown(answers));
+        
     })
     .catch((error) => {
         if (error.isTtyError) {
