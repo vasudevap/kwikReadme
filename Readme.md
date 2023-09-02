@@ -1,5 +1,5 @@
 # kwickReadme
-  
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
   ## DESCRIPTION
   
   In this project, we explore what is possible with JavaScript by providing it some instructions and expecting it to produce for us, a markdown readme file.  As coders, it behooves us to code our way into documentation!
@@ -46,12 +46,10 @@ On the browser, you can:
 4. on the console, run the function init()
 5. answer the prompts on the console
 6. when the program finishes, check the kwickReadme directory for a Readme.md
-
   
 
   # CONTRIBUTING
-  
-To join me in my quest to automate the mundane, send your carrier pigeons to my gitHub at 'vasudevap'
+  To join me in my quest to automate the mundane, send your carrier pigeons to my gitHub at 'vasudevap'
 
   
   # TESTS
@@ -59,7 +57,7 @@ To join me in my quest to automate the mundane, send your carrier pigeons to my 
 
 
   # LICENSE
-  Creative Commons
+  GNU GPL v3
  
   # QUESTIONS
   Please reach me at gitHub (vasudevap) or at my email at prashant.vasudeva@gmail.com

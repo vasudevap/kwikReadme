@@ -3,27 +3,27 @@
 function renderLicenseBadge(license) { 
 switch (license) {
   case "GNU GPL v3":
-    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
+    return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
 
   case "GNU GPL v2": 
-  return "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)]";
+  return "![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)";
 
   case "The Hippocratic License 3.0": 
-  return "[![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)]";
+  return "![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)";
 
   case "The MIT License": 
-  return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+  return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
 
   case "Mozilla Public License 2.0": 
-  return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]";
+  return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
 
   case "Public Domain Dedication and License (PDDL)": 
-  return "[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)]";
+  return "![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)";
 
   case "The Artistic License 2.0":
-    return "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)]";
+    return "![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)";
   case "The Unlicense":
-    return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
+    return "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)";
 
 }
 
@@ -64,8 +64,9 @@ function renderLicenseSection(license) { }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
-  
+  let beforeLicenseText= `# ${data.title}\n`
+  let licenseText = renderLicenseBadge(data.license);
+  let afterLicenseText=`
   ## DESCRIPTION
   
   ${data.description}
@@ -98,6 +99,7 @@ function generateMarkdown(data) {
   Please reach me at gitHub (${data.gitHub}) or at my email at ${data.email}
   ---
 `;
+return beforeLicenseText+licenseText+afterLicenseText;
 }
 
 module.exports = generateMarkdown;
