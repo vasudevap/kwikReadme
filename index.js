@@ -24,8 +24,6 @@ const licenseChoices = [
         "Mozilla Public License 2.0",
         "Public Domain Dedication and License (PDDL)",
         "The Artistic License 2.0",
-        "The Unlicense"
-
 ]
 
 // Function to write README file
