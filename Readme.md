@@ -1,4 +1,4 @@
-# kwikReadme
+# kwickReadme
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 ## DESCRIPTION
@@ -34,14 +34,14 @@ To run on the browser:
 
 # USAGE
 
-<video src="kwikReadme-Demo.mp4" controls title="kwikReadme Demo"></video>
+[kwikReadme Demo](kwikReadme-Demo.mov)
 
 On the Nodejs runtime environment:
 1. open the terminal
-2. navigate to kwikReadme directory where the index.js is stored
+2. navigate to kwickReadme directory where the index.js is stored
 3. type "node index.js" and hit ENTER.
 4. you're presented with a few questions, answer the prompts
-5. when the program finishes, check the kwikReadme directory for a Readme.md
+5. when the program finishes, check the kwickReadme directory for a Readme.md
 
 On the browser, you can:
 1. create an HTML that links index.js as a script
@@ -49,22 +49,20 @@ On the browser, you can:
 3. inspect the page and open the console
 4. on the console, run the function init()
 5. answer the prompts on the console
-6. when the program finishes, check the kwikReadme directory for a Readme.md
-
+6. when the program finishes, check the kwickReadme directory for a Readme.md
+  
 
 # CONTRIBUTING
-  To join me in my quest to automate the mundane, send your carrier pigeons to my gitHub at 'vasudevap'
-
+To join me in my quest to automate the mundane, send your carrier pigeons to my gitHub at 'vasudevap'
 
 
 # TESTS
-  To test, run the application and answer the prompts.  For a successful run, the file, Readme.md should be present in the same folder as the script.
-
+To test, run the application and answer the prompts.  For a successful run, the file, Readme.md should be present in the same folder as the script.
 
 
 # LICENSE
 [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)
-General Public License is a free, copyleft license for software and other kinds of works.
+ General Public License is a free, copyleft license for software and other kinds of works.
 
 The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
 
