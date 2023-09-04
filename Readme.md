@@ -31,11 +31,11 @@ To run on the browser:
 5. If file is not present in directory,
 6. Run init() from the console.
 
+# MOCKUP
+
+[VIDEO: kwikReadme Demo](https://drive.google.com/file/d/135T0vZI3yYEOIpQLI60KG9uqHFdJvf6k/view?usp=drive_link)
 
 # USAGE
-
-[kwikReadme Demo](kwikReadme-Demo.mov)
-
 On the Nodejs runtime environment:
 1. open the terminal
 2. navigate to kwickReadme directory where the index.js is stored
@@ -82,6 +82,6 @@ Finally, every program is threatened constantly by software patents. States shou
 
 
 # QUESTIONS
-Please reach me at gitHub (vasudevap) or at my email at prashant.vasudeva@gmail.com
+Please reach me at [vasudevap](https://github.com/vasudevap) or at my email at prashant.vasudeva@gmail.com
 ---
 

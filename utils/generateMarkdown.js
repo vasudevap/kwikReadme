@@ -1,30 +1,30 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { 
-switch (license) {
-  case "GNU GPL v3":
-    return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+function renderLicenseBadge(license) {
+  switch (license) {
+    case "GNU GPL v3":
+      return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
 
-  case "GNU GPL v2": 
-  return "![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)";
+    case "GNU GPL v2":
+      return "![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)";
 
-  case "The Hippocratic License 3.0": 
-  return "![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)";
+    case "The Hippocratic License 3.0":
+      return "![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)";
 
-  case "The MIT License": 
-  return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+    case "The MIT License":
+      return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
 
-  case "Mozilla Public License 2.0": 
-  return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
+    case "Mozilla Public License 2.0":
+      return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
 
-  case "Public Domain Dedication and License (PDDL)": 
-  return "![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)";
+    case "Public Domain Dedication and License (PDDL)":
+      return "![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)";
 
-  case "The Artistic License 2.0":
-    return "![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)";
-  
+    case "The Artistic License 2.0":
+      return "![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)";
+
     default: return "";
-}
+  }
 
 }
 // TODO: Create a function that returns the license link
@@ -33,32 +33,32 @@ function renderLicenseLink(license) {
   switch (license) {
     case "GNU GPL v3":
       return "(https://www.gnu.org/licenses/gpl-3.0)";
-  
-    case "GNU GPL v2": 
-    return "(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
-  
-    case "The Hippocratic License 3.0": 
-    return "(https://firstdonoharm.dev)";
-  
-    case "The MIT License": 
-    return "(https://opensource.org/licenses/MIT)";
-  
-    case "Mozilla Public License 2.0": 
-    return "(https://opensource.org/licenses/MPL-2.0)";
-  
-    case "Public Domain Dedication and License (PDDL)": 
-    return "(https://opendatacommons.org/licenses/pddl/)";
-  
+
+    case "GNU GPL v2":
+      return "(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)";
+
+    case "The Hippocratic License 3.0":
+      return "(https://firstdonoharm.dev)";
+
+    case "The MIT License":
+      return "(https://opensource.org/licenses/MIT)";
+
+    case "Mozilla Public License 2.0":
+      return "(https://opensource.org/licenses/MPL-2.0)";
+
+    case "Public Domain Dedication and License (PDDL)":
+      return "(https://opendatacommons.org/licenses/pddl/)";
+
     case "The Artistic License 2.0":
       return "(https://opensource.org/licenses/Artistic-2.0)";
 
     default: return "";
-  
- }
+
+  }
 }
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { 
+function renderLicenseSection(license) {
   switch (license) {
     case "GNU GPL v3":
       return ` General Public License is a free, copyleft license for software and other kinds of works.
@@ -79,8 +79,8 @@ Some devices are designed to deny users access to install or run modified versio
 
 Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.`;
 
-    case "GNU GPL v2": 
-return `The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
+    case "GNU GPL v2":
+      return `The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Lesser General Public License instead.) You can apply it to your programs, too.
 
 When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things.
 
@@ -94,8 +94,8 @@ Also, for each author's protection and ours, we want to make certain that everyo
 
 Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all.`;
 
-    case "The Hippocratic License 3.0": 
-return `Technological advancement is often shaped by the choices and priorities of the powerful— in particular, the military, governments, and corporate interests. Their distorted priorities are often at odds with the promise of technology as a force for promoting justice and equity worldwide, and this increasingly includes open source technologies.
+    case "The Hippocratic License 3.0":
+      return `Technological advancement is often shaped by the choices and priorities of the powerful— in particular, the military, governments, and corporate interests. Their distorted priorities are often at odds with the promise of technology as a force for promoting justice and equity worldwide, and this increasingly includes open source technologies.
 
 Traditional open source is based on the flawed premise that technology is fundamentally neutral, and that unrestricted access to source code— even for explicitly “evil” purposes— is in fact an unqualified good. But around the world, open source developers are starting to realize that the software that they create, with its tremendous potential to change the world for the better, is also being abused to sustain and promote systems of inequity and injustice, globally, and at unprecedented scale.
 
@@ -105,20 +105,20 @@ HL3 also offers optional modules that focus on specific areas of concern, such a
 
 Healthy open source communities do not just form around code, but also around shared values and a vision for how their work can improve the world. The true measure of the success of open source is its impact— how the technologies we develop are leveraged to bring about positive social, cultural, and political change.`;
 
-    case "The MIT License": 
-return `Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+    case "The MIT License":
+      return `Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`;
-  
-    case "Mozilla Public License 2.0": 
-return `The Open Source Initiative (OSI) is a California public benefit corporation, with 501(c)3 tax-exempt status, founded in 1998.
+
+    case "Mozilla Public License 2.0":
+      return `The Open Source Initiative (OSI) is a California public benefit corporation, with 501(c)3 tax-exempt status, founded in 1998.
 
     We are also actively involved in Open Source community-building, education, and public advocacy to promote awareness and the importance of non-proprietary software. OSI participates in Open Source conferences and events, to meet with open source developers and users, and to discuss with executives from the public and private sectors about how Open Source technologies, licenses, and models of development can provide economic and strategic advantages.`;
-  
-    case "Public Domain Dedication and License (PDDL)": 
-return `This is a human-readable summary of the Public Domain Dedication and License 1.0. Please see the disclaimer below.
+
+    case "Public Domain Dedication and License (PDDL)":
+      return `This is a human-readable summary of the Public Domain Dedication and License 1.0. Please see the disclaimer below.
 
 You are free:
 
@@ -133,20 +133,22 @@ Disclaimer
 This is not a license. It is simply a handy reference for understanding the PDDL 1.0 — it is a human-readable expression of some of its key terms. This document has no legal value, and its contents do not appear in the actual license. Read the full PDDL 1.0 license text for the exact terms that apply.`;
 
     case "The Artistic License 2.0":
-return `This license establishes the terms under which a given free software Package may be copied, modified, distributed, and/or redistributed. The intent is that the Copyright Holder maintains some artistic control over the development of that Package while still keeping the Package available as open source and free software.
+      return `This license establishes the terms under which a given free software Package may be copied, modified, distributed, and/or redistributed. The intent is that the Copyright Holder maintains some artistic control over the development of that Package while still keeping the Package available as open source and free software.
 
 You are always permitted to make arrangements wholly outside of this license directly with the Copyright Holder of a given Package. If the terms of this license do not permit the full use that you propose to make of the Package, you should contact the Copyright Holder and seek a different licensing arrangement.`;
 
     default: return "";
-  
- }
+
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-let beforeLicenseBadge= `# ${data.title}\n`
-let licenseBadge = renderLicenseBadge(data.license)+"\n";
-let afterLicenseBadge=`
+
+  const gitHubURL = "https://github.com/";
+  let beforeLicenseBadge = `# ${data.title}\n`
+  let licenseBadge = renderLicenseBadge(data.license) + "\n";
+  let afterLicenseBadge = `
 ## DESCRIPTION
 
 ${data.description}
@@ -174,16 +176,20 @@ ${data.tests}
 
 # LICENSE
 [${data.license}]`;
-let licenseLink = renderLicenseLink(data.license);
-let licenseText = "\n"+renderLicenseSection(data.license);
-let afterLicenseText = `\n
+  //
+  // license section
+  //
+  let licenseLink = renderLicenseLink(data.license);
+  let licenseText = "\n" + renderLicenseSection(data.license);
+
+  let afterLicenseText = `\n
 
 # QUESTIONS
-Please reach me at gitHub (${data.gitHub}) or at my email at ${data.email}
+Please reach me at [${data.gitHub}](${gitHubURL}${data.gitHub}) or at my email at ${data.email}
 ---
 `;
-//concatenate all sections of the file and return it
-return beforeLicenseBadge+licenseBadge+afterLicenseBadge+licenseLink+licenseText+afterLicenseText;
+  //concatenate all sections of the file and return it
+  return beforeLicenseBadge + licenseBadge + afterLicenseBadge + licenseLink + licenseText + afterLicenseText;
 }
 
 module.exports = generateMarkdown;
